@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682045763433",
+    "project_id": "flutter-test-603b7",
+    "storage_bucket": "flutter-test-603b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682045763433:android:4e5a4d047fb78e0ea097f8",
+        "android_client_info": {
+          "package_name": "com.sylo.firbasecrud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq_av_4niqi025ZjI7PNbnDyod7mT1XmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682045763433:android:1793ff26a7544d4ea097f8",
+        "android_client_info": {
+          "package_name": "com.sylo.firebasecrud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq_av_4niqi025ZjI7PNbnDyod7mT1XmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
