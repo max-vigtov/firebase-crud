@@ -1,7 +1,9 @@
+import 'package:firebase_crud/presentation/screens/add_name_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'config/theme/app_theme.dart';
+import 'presentation/screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,11 +21,11 @@ class MainApp extends StatelessWidget {
     return  MaterialApp(
       theme: AppTheme().getTheme(),
       debugShowCheckedModeBanner: false,
-      home: const Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const HomeScreen(),
+        '/add': (context) => const AddNameScreen()
+      },
     );
   }
 }
